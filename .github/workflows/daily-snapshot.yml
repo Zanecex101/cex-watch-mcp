@@ -1,0 +1,44 @@
+name: Daily Snapshot
+
+on:
+  schedule:
+    - cron: "5 0 * * *"   # 00:05 UTC every day
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-snapshot
+  cancel-in-progress: false
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install package
+        run: |
+          python -m pip install --upgrade pip
+          pip install -e .
+
+      - name: Run snapshot
+        run: cex-watch-snapshot
+
+      - name: Commit if changed
+        run: |
+          git config user.name  "cex-watch-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/
+          if git diff --cached --quiet; then
+            echo "no data changes, skipping commit"
+          else
+            git commit -m "data: snapshot $(date -u +%F)"
+            git push
+          fi

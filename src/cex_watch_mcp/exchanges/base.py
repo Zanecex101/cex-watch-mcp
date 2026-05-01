@@ -51,7 +51,7 @@ class ExchangeAdapter(ABC):
         self._client = client
         self._owns_client = client is None
 
-    async def __aenter__(self) -> "ExchangeAdapter":
+    async def __aenter__(self) -> ExchangeAdapter:
         if self._client is None:
             self._client = httpx.AsyncClient(
                 timeout=DEFAULT_TIMEOUT,

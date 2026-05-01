@@ -149,7 +149,8 @@ async def run_snapshot(data_dir: Path) -> None:
     for row in latest_payload["summary"]:
         print(
             f"  {row['exchange']:10}  healthy={row['healthy']!s:5}  "
-            f"pairs={row['pair_count']:>5}  maker={row['maker_bps']}bps  taker={row['taker_bps']}bps"
+            f"pairs={row['pair_count']:>5}  "
+            f"maker={row['maker_bps']}bps  taker={row['taker_bps']}bps"
         )
 
 

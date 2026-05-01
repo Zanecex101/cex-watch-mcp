@@ -1,51 +1,29 @@
 {
   "exchanges": {
     "binance": {
-      "error": null,
-      "pair_count": 1403,
-      "pairs_sample": [
-        "ETHBTC",
-        "LTCBTC",
-        "BNBBTC",
-        "GASBTC",
-        "BNBETH",
-        "BTCUSDT",
-        "ETHUSDT",
-        "KNCBTC",
-        "IOTABTC",
-        "LINKBTC"
-      ]
+      "error": "Client error '451 ' for url 'https://api.binance.com/api/v3/exchangeInfo'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/451",
+      "pair_count": 0,
+      "pairs_sample": []
     },
     "bybit": {
-      "error": null,
-      "pair_count": 632,
-      "pairs_sample": [
-        "BTCUSDT",
-        "ETHUSDT",
-        "XRPUSDT",
-        "ETHBTC",
-        "XRPBTC",
-        "DOTUSDT",
-        "XLMUSDT",
-        "LTCUSDT",
-        "DOGEUSDT",
-        "CHZUSDT"
-      ]
+      "error": "Client error '403 Forbidden' for url 'https://api.bybit.com/v5/market/instruments-info?category=spot'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403",
+      "pair_count": 0,
+      "pairs_sample": []
     },
     "coinbase": {
       "error": null,
       "pair_count": 521,
       "pairs_sample": [
-        "DOGE-EUR",
-        "POWR-USD",
-        "AUDD-USDC",
-        "INDEX-USD",
-        "BLZ-USD",
-        "RECALL-USD",
-        "SOL-BTC",
-        "AUCTION-USD",
-        "KAVA-USD",
-        "MPLX-USD"
+        "AXL-USD",
+        "ZRX-USD",
+        "TAO-USD",
+        "SUI-USD",
+        "XRP-EUR",
+        "MOODENG-USD",
+        "TON-USD",
+        "ZKC-USD",
+        "SNX-GBP",
+        "MEZO-USD"
       ]
     },
     "kraken": {
@@ -81,6 +59,6 @@
       ]
     }
   },
-  "generated_at": "2026-05-01T10:08:42.581519+00:00",
+  "generated_at": "2026-05-01T11:09:36.792625+00:00",
   "snapshot_date": "2026-05-01"
 }

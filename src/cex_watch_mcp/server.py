@@ -58,7 +58,7 @@ async def list_exchanges() -> dict[str, Any]:
         ],
         "note": (
             "All sources are public REST APIs. No API keys required. "
-            "See https://github.com/zanecex101/cex-watch-mcp for adapter source."
+            "See https://github.com/Zanecex101/cex-watch-mcp for adapter source."
         ),
     }
 

@@ -3,7 +3,7 @@
 > **An open MCP server for monitoring centralized crypto exchanges.**
 > No backend SaaS. No API token. Every data source is a public REST endpoint you can audit.
 
-[![Daily Snapshot](https://github.com/zanecex101/cex-watch-mcp/actions/workflows/daily-snapshot.yml/badge.svg)](https://github.com/zanecex101/cex-watch-mcp/actions/workflows/daily-snapshot.yml)
+[![Daily Snapshot](https://github.com/Zanecex101/cex-watch-mcp/actions/workflows/daily-snapshot.yml/badge.svg)](https://github.com/Zanecex101/cex-watch-mcp/actions/workflows/daily-snapshot.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 
@@ -58,7 +58,7 @@ cex-watch-mcp        # stdio MCP server
 ### Option 3 — clone + run from source
 
 ```bash
-git clone https://github.com/zanecex101/cex-watch-mcp
+git clone https://github.com/Zanecex101/cex-watch-mcp
 cd cex-watch-mcp
 pip install -e .
 cex-watch-mcp
@@ -109,7 +109,7 @@ Issues and PRs welcome. See [docs/adding-new-exchange.md](docs/adding-new-exchan
 
 ## Author
 
-Built by [Zane](https://github.com/zanecex101) — independent crypto exchange researcher.
+Built by [Zane](https://github.com/Zanecex101) — independent crypto exchange researcher.
 Also editor at [Cex101](https://cex101.com), where he writes multilingual exchange reviews.
 
 ## License

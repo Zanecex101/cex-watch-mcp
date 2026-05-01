@@ -9,7 +9,7 @@ from typing import Any
 import httpx
 
 DEFAULT_TIMEOUT = 10.0
-USER_AGENT = "cex-watch-mcp/0.1 (+https://github.com/zanecex101/cex-watch-mcp)"
+USER_AGENT = "cex-watch-mcp/0.1 (+https://github.com/Zanecex101/cex-watch-mcp)"
 
 
 @dataclass

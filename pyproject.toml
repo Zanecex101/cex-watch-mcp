@@ -40,8 +40,8 @@ cex-watch-mcp = "cex_watch_mcp.server:main"
 cex-watch-snapshot = "cex_watch_mcp.snapshot:main"
 
 [project.urls]
-Homepage = "https://github.com/zanecex101/cex-watch-mcp"
-Issues = "https://github.com/zanecex101/cex-watch-mcp/issues"
+Homepage = "https://github.com/Zanecex101/cex-watch-mcp"
+Issues = "https://github.com/Zanecex101/cex-watch-mcp/issues"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/cex_watch_mcp"]

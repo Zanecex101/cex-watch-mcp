@@ -1,0 +1,56 @@
+{
+  "exchanges": {
+    "binance": {
+      "default_fee": {
+        "exchange": "binance",
+        "maker_bps": 10.0,
+        "notes": "VIP 0 spot, no BNB discount. From published fee schedule.",
+        "pair": "*",
+        "taker_bps": 10.0
+      },
+      "error": null
+    },
+    "bybit": {
+      "default_fee": {
+        "exchange": "bybit",
+        "maker_bps": 10.0,
+        "notes": "Vip 0 spot. From published fee schedule.",
+        "pair": "*",
+        "taker_bps": 10.0
+      },
+      "error": null
+    },
+    "coinbase": {
+      "default_fee": {
+        "exchange": "coinbase",
+        "maker_bps": 60.0,
+        "notes": "Advanced Trade default tier (<$10k 30d volume). From published fee schedule.",
+        "pair": "*",
+        "taker_bps": 80.0
+      },
+      "error": null
+    },
+    "kraken": {
+      "default_fee": {
+        "exchange": "kraken",
+        "maker_bps": 25.0,
+        "notes": "Pro default tier (<$10k 30d volume). From published fee schedule.",
+        "pair": "*",
+        "taker_bps": 40.0
+      },
+      "error": null
+    },
+    "okx": {
+      "default_fee": {
+        "exchange": "okx",
+        "maker_bps": 8.0,
+        "notes": "Regular user Lv1 spot. From published fee schedule.",
+        "pair": "*",
+        "taker_bps": 10.0
+      },
+      "error": null
+    }
+  },
+  "generated_at": "2026-05-04T09:07:40.218389+00:00",
+  "snapshot_date": "2026-05-04"
+}

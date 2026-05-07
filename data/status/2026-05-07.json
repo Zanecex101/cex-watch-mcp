@@ -1,0 +1,63 @@
+{
+  "exchanges": {
+    "binance": {
+      "error": null,
+      "status": {
+        "api_latency_ms": null,
+        "error": "Client error '451 ' for url 'https://api.binance.com/api/v3/ping'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/451",
+        "exchange": "binance",
+        "healthy": false,
+        "raw": {},
+        "spot_pair_count": null
+      }
+    },
+    "bybit": {
+      "error": null,
+      "status": {
+        "api_latency_ms": null,
+        "error": "Client error '403 Forbidden' for url 'https://api.bybit.com/v5/market/time'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403",
+        "exchange": "bybit",
+        "healthy": false,
+        "raw": {},
+        "spot_pair_count": null
+      }
+    },
+    "coinbase": {
+      "error": null,
+      "status": {
+        "api_latency_ms": 137,
+        "error": null,
+        "exchange": "coinbase",
+        "healthy": true,
+        "raw": {},
+        "spot_pair_count": 522
+      }
+    },
+    "kraken": {
+      "error": null,
+      "status": {
+        "api_latency_ms": 188,
+        "error": null,
+        "exchange": "kraken",
+        "healthy": true,
+        "raw": {
+          "system_status": "online"
+        },
+        "spot_pair_count": 1485
+      }
+    },
+    "okx": {
+      "error": null,
+      "status": {
+        "api_latency_ms": 197,
+        "error": null,
+        "exchange": "okx",
+        "healthy": true,
+        "raw": {},
+        "spot_pair_count": 1242
+      }
+    }
+  },
+  "generated_at": "2026-05-07T09:46:56.589856+00:00",
+  "snapshot_date": "2026-05-07"
+}

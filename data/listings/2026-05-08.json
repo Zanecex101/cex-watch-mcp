@@ -1,0 +1,53 @@
+{
+  "exchanges": {
+    "binance": {
+      "error": "Client error '451 ' for url 'https://api.binance.com/api/v3/exchangeInfo'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/451",
+      "pair_count": 0,
+      "pairs_sample": []
+    },
+    "bybit": {
+      "error": "Client error '403 Forbidden' for url 'https://api.bybit.com/v5/market/instruments-info?category=spot'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403",
+      "pair_count": 0,
+      "pairs_sample": []
+    },
+    "coinbase": {
+      "error": "Server error '503 Service Unavailable' for url 'https://api.exchange.coinbase.com/products'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503",
+      "pair_count": 0,
+      "pairs_sample": []
+    },
+    "kraken": {
+      "error": null,
+      "pair_count": 1485,
+      "pairs_sample": [
+        "0GEUR",
+        "0GUSD",
+        "1INCHEUR",
+        "1INCHUSD",
+        "2ZEUR",
+        "2ZUSD",
+        "AAVEETH",
+        "AAVEEUR",
+        "AAVEGBP",
+        "AAVEUSD"
+      ]
+    },
+    "okx": {
+      "error": null,
+      "pair_count": 1242,
+      "pairs_sample": [
+        "USDT-SGD",
+        "USDC-SGD",
+        "BTC-AUD",
+        "ETH-AUD",
+        "SOL-AUD",
+        "XRP-AUD",
+        "AUDF-AUD",
+        "AUDM-AUD",
+        "TRUMP-AUD",
+        "USDT-AUD"
+      ]
+    }
+  },
+  "generated_at": "2026-05-08T06:20:02.808274+00:00",
+  "snapshot_date": "2026-05-08"
+}

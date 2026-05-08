@@ -1,19 +1,52 @@
 {
   "exchanges": {
     "binance": {
-      "error": "Client error '451 ' for url 'https://api.binance.com/api/v3/exchangeInfo'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/451",
-      "pair_count": 0,
-      "pairs_sample": []
+      "error": null,
+      "pair_count": 1392,
+      "pairs_sample": [
+        "ETHBTC",
+        "LTCBTC",
+        "BNBBTC",
+        "GASBTC",
+        "BNBETH",
+        "BTCUSDT",
+        "ETHUSDT",
+        "KNCBTC",
+        "IOTABTC",
+        "LINKBTC"
+      ]
     },
     "bybit": {
-      "error": "Client error '403 Forbidden' for url 'https://api.bybit.com/v5/market/instruments-info?category=spot'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403",
-      "pair_count": 0,
-      "pairs_sample": []
+      "error": null,
+      "pair_count": 637,
+      "pairs_sample": [
+        "BTCUSDT",
+        "ETHUSDT",
+        "XRPUSDT",
+        "ETHBTC",
+        "XRPBTC",
+        "DOTUSDT",
+        "XLMUSDT",
+        "LTCUSDT",
+        "DOGEUSDT",
+        "CHZUSDT"
+      ]
     },
     "coinbase": {
-      "error": "Server error '503 Service Unavailable' for url 'https://api.exchange.coinbase.com/products'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503",
-      "pair_count": 0,
-      "pairs_sample": []
+      "error": null,
+      "pair_count": 522,
+      "pairs_sample": [
+        "WIF-USD",
+        "AAVE-EUR",
+        "LINK-GBP",
+        "DOT-EUR",
+        "DBR-USD",
+        "SIGN-USD",
+        "FAI-USD",
+        "DNT-USD",
+        "ALT-USD",
+        "ARB-USD"
+      ]
     },
     "kraken": {
       "error": null,
@@ -48,6 +81,6 @@
       ]
     }
   },
-  "generated_at": "2026-05-08T06:20:02.808274+00:00",
+  "generated_at": "2026-05-08T10:38:08.739394+00:00",
   "snapshot_date": "2026-05-08"
 }

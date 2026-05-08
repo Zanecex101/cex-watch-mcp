@@ -3,40 +3,40 @@
     "binance": {
       "error": null,
       "status": {
-        "api_latency_ms": null,
-        "error": "Client error '451 ' for url 'https://api.binance.com/api/v3/ping'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/451",
+        "api_latency_ms": 247,
+        "error": null,
         "exchange": "binance",
-        "healthy": false,
+        "healthy": true,
         "raw": {},
-        "spot_pair_count": null
+        "spot_pair_count": 1392
       }
     },
     "bybit": {
       "error": null,
       "status": {
-        "api_latency_ms": null,
-        "error": "Client error '403 Forbidden' for url 'https://api.bybit.com/v5/market/time'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403",
+        "api_latency_ms": 194,
+        "error": null,
         "exchange": "bybit",
-        "healthy": false,
+        "healthy": true,
         "raw": {},
-        "spot_pair_count": null
+        "spot_pair_count": 637
       }
     },
     "coinbase": {
       "error": null,
       "status": {
-        "api_latency_ms": null,
-        "error": "Server error '503 Service Unavailable' for url 'https://api.exchange.coinbase.com/products'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503",
+        "api_latency_ms": 134,
+        "error": null,
         "exchange": "coinbase",
-        "healthy": false,
+        "healthy": true,
         "raw": {},
-        "spot_pair_count": null
+        "spot_pair_count": 522
       }
     },
     "kraken": {
       "error": null,
       "status": {
-        "api_latency_ms": 172,
+        "api_latency_ms": 47,
         "error": null,
         "exchange": "kraken",
         "healthy": true,
@@ -49,7 +49,7 @@
     "okx": {
       "error": null,
       "status": {
-        "api_latency_ms": 255,
+        "api_latency_ms": 218,
         "error": null,
         "exchange": "okx",
         "healthy": true,
@@ -58,6 +58,6 @@
       }
     }
   },
-  "generated_at": "2026-05-08T06:20:02.808274+00:00",
+  "generated_at": "2026-05-08T10:38:08.739394+00:00",
   "snapshot_date": "2026-05-08"
 }

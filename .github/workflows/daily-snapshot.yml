@@ -14,7 +14,9 @@ concurrency:
 
 jobs:
   snapshot:
-    runs-on: ubuntu-latest
+    # Self-hosted runner on ams. GitHub-hosted runners (Azure US IPs) hit
+    # 451 from Binance and 403 from Bybit due to data-center geoblocks.
+    runs-on: [self-hosted, linux, x64, ams]
     steps:
       - uses: actions/checkout@v4
 

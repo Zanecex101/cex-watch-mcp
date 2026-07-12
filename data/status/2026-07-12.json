@@ -1,0 +1,63 @@
+{
+  "exchanges": {
+    "binance": {
+      "error": null,
+      "status": {
+        "api_latency_ms": 268,
+        "error": null,
+        "exchange": "binance",
+        "healthy": true,
+        "raw": {},
+        "spot_pair_count": 1356
+      }
+    },
+    "bybit": {
+      "error": null,
+      "status": {
+        "api_latency_ms": 184,
+        "error": null,
+        "exchange": "bybit",
+        "healthy": true,
+        "raw": {},
+        "spot_pair_count": 599
+      }
+    },
+    "coinbase": {
+      "error": null,
+      "status": {
+        "api_latency_ms": 134,
+        "error": null,
+        "exchange": "coinbase",
+        "healthy": true,
+        "raw": {},
+        "spot_pair_count": 527
+      }
+    },
+    "kraken": {
+      "error": null,
+      "status": {
+        "api_latency_ms": 43,
+        "error": null,
+        "exchange": "kraken",
+        "healthy": true,
+        "raw": {
+          "system_status": "online"
+        },
+        "spot_pair_count": 1405
+      }
+    },
+    "okx": {
+      "error": null,
+      "status": {
+        "api_latency_ms": 228,
+        "error": null,
+        "exchange": "okx",
+        "healthy": true,
+        "raw": {},
+        "spot_pair_count": 1283
+      }
+    }
+  },
+  "generated_at": "2026-07-12T03:44:47.767263+00:00",
+  "snapshot_date": "2026-07-12"
+}

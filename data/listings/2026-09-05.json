@@ -1,0 +1,86 @@
+{
+  "exchanges": {
+    "binance": {
+      "error": null,
+      "pair_count": 1362,
+      "pairs_sample": [
+        "ETHBTC",
+        "LTCBTC",
+        "BNBBTC",
+        "BNBETH",
+        "BTCUSDT",
+        "ETHUSDT",
+        "LINKBTC",
+        "LINKETH",
+        "ETCBTC",
+        "ZECBTC"
+      ]
+    },
+    "bybit": {
+      "error": null,
+      "pair_count": 538,
+      "pairs_sample": [
+        "BTCUSDT",
+        "ETHUSDT",
+        "XRPUSDT",
+        "ETHBTC",
+        "XRPBTC",
+        "DOTUSDT",
+        "XLMUSDT",
+        "LTCUSDT",
+        "DOGEUSDT",
+        "CHZUSDT"
+      ]
+    },
+    "coinbase": {
+      "error": null,
+      "pair_count": 522,
+      "pairs_sample": [
+        "GRVT-USD",
+        "EUL-USD",
+        "META-USD",
+        "ETC-EUR",
+        "SUI-USD",
+        "OXT-USD",
+        "NEX-USD",
+        "SWFTC-USD",
+        "ALGO-GBP",
+        "ZEN-USD"
+      ]
+    },
+    "kraken": {
+      "error": null,
+      "pair_count": 1391,
+      "pairs_sample": [
+        "0GEUR",
+        "0GUSD",
+        "1INCHEUR",
+        "1INCHUSD",
+        "2ZEUR",
+        "2ZUSD",
+        "AAVEETH",
+        "AAVEEUR",
+        "AAVEGBP",
+        "AAVEUSD"
+      ]
+    },
+    "okx": {
+      "error": null,
+      "pair_count": 1388,
+      "pairs_sample": [
+        "USDT-SGD",
+        "USDC-SGD",
+        "USDG-SGD",
+        "BTC-AUD",
+        "ETH-AUD",
+        "SOL-AUD",
+        "XRP-AUD",
+        "TRUMP-AUD",
+        "AUDF-AUD",
+        "AUDM-AUD"
+      ]
+    }
+  },
+  "generated_at": "2026-09-05T04:14:01.617086+00:00",
+  "snapshot_date": "2026-09-05"
+}

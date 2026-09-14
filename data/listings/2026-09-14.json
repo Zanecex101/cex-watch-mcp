@@ -36,16 +36,16 @@
       "error": null,
       "pair_count": 522,
       "pairs_sample": [
-        "UNI-USD",
-        "CGLD-USD",
-        "ATH-USD",
-        "ETH-USD",
-        "PENGU-USD",
-        "FORT-USD",
-        "AGLD-USD",
-        "ZRX-USD",
-        "BNT-USD",
-        "NCT-USD"
+        "SAPIEN-USD",
+        "CRV-EUR",
+        "ETH-GBP",
+        "NKN-USD",
+        "VET-USD",
+        "DIEM-USD",
+        "IO-USD",
+        "SHPING-USD",
+        "RPL-USD",
+        "MEGA-USD"
       ]
     },
     "kraken": {
@@ -81,6 +81,6 @@
       ]
     }
   },
-  "generated_at": "2026-09-14T01:08:22.949187+00:00",
+  "generated_at": "2026-09-14T04:42:28.977758+00:00",
   "snapshot_date": "2026-09-14"
 }

@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-10-21T04:29:22.243330+00:00",
-  "snapshot_date": "2026-10-21",
+  "generated_at": "2026-10-22T04:27:17.459309+00:00",
+  "snapshot_date": "2026-10-22",
   "summary": [
     {
-      "api_latency_ms": 234,
+      "api_latency_ms": 241,
       "exchange": "binance",
       "healthy": true,
       "maker_bps": 10.0,
-      "pair_count": 1380,
+      "pair_count": 1387,
       "taker_bps": 10.0
     },
     {
-      "api_latency_ms": 265,
+      "api_latency_ms": 249,
       "exchange": "okx",
       "healthy": true,
       "maker_bps": 8.0,
-      "pair_count": 1185,
+      "pair_count": 1183,
       "taker_bps": 10.0
     },
     {
-      "api_latency_ms": 188,
+      "api_latency_ms": 190,
       "exchange": "bybit",
       "healthy": true,
       "maker_bps": 10.0,
@@ -27,7 +27,7 @@
       "taker_bps": 10.0
     },
     {
-      "api_latency_ms": 130,
+      "api_latency_ms": 135,
       "exchange": "coinbase",
       "healthy": true,
       "maker_bps": 60.0,
@@ -35,7 +35,7 @@
       "taker_bps": 80.0
     },
     {
-      "api_latency_ms": 47,
+      "api_latency_ms": 442,
       "exchange": "kraken",
       "healthy": true,
       "maker_bps": 25.0,
